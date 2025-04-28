@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Luxe Drive</title>
+  <link rel="stylesheet" href="home.css">
+</head>
+<body>
+
+  <!-- Fondo de video -->
+   <div class="video-container">
+  <video autoplay muted loop id="video">
+    <source src="202409-VIDEO-CS.mp4" type="video/mp4">
+    Tu navegador no soporta videos HTML5.
+  </video>
+</div>
+
+<header class="navbar" id="navbar">
+  <img src="Blue_White_Line_Art_Car_Sales_Logo-removebg-preview.png" alt="Logo" style="height: 200px;">
+
+
+  <div class="navbar-content">
+    <nav class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">Inventario</a>
+      <a href="#">Financiamiento</a>
+      <a href="#">FAQ</a>
+      <a href="#">Blog</a>
+      <a href="#">Nosotros</a>
+      <a href="#">Contacto</a>
+    </nav>
+  </div>
+
+  <a href="#" class="login-link">Logueate</a>
+</header>
+
+  
+  <script>
+    window.addEventListener('scroll', function () {
+      const navbar = document.querySelector('.navbar');
+      if (window.scrollY > 50) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    });
+  </script>
+  
+
+  <section class="hero">
+    <div class="overlay">
+      <h1>Encuentra el <span class="highlight">Vehículo</span> Perfecto</h1>
+      
+      <div class="tabs">
+        <button class="tab active">Todos</button>
+        <button class="tab">Nuevo</button>
+        <button class="tab">Usado</button>
+      </div>
+
+      <div class="search-box">
+        <select><option>Todas las Marcas</option></select>
+        <select><option>Todos los Modelos</option></select>
+        <select><option>Todos los Años</option></select>
+        <button class="search-btn">🔍</button>
+      </div>
+
+      <p>Busca en nuestro extenso catálogo de vehículos, o da click aquí para ver todos.</p>
+
+
+      <!-- Categorías con íconos -->
+      <div class="categories">
+        <div class="category">
+          <img src="1-removebg-preview.png" alt="Sedán" />
+          <span>Sedán</span>
+        </div>
+        <div class="category">
+          <img src="icons/camionetas.png" alt="Camionetas" />
+          <span>Camionetas</span>
+        </div>
+        <div class="category">
+          <img src="sedan-car.png" alt="SUV" />
+          <span>SUV</span>
+        </div>
+        <div class="category">
+          <img src="4-removebg-preview.png" alt="Deportivos" />
+          <span>Deportivos</span>ssss
+        </div>
+        <div class="category">
+          <img src="icons/camiones.png" alt="Camiones" />
+          <span>Camiones</span>
+        </div>
+        <div class="category">
+          <img src="Black_Flat_Illustrative_Garage_Service_Logo-removebg-preview.png" alt="Convertibles" />
+          <span>Convertibles</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="scroll-down">
+    <!-- Nueva flecha en forma de "V" abierta -->
+    <svg xmlns="http://www.w3.org/2000/svg"  width="60" height="60" fill="none" stroke="white" stroke-width="2" viewBox="0 0 24 24">
+      <path d="M7 10l5 5 5-5"/>
+    </svg>
+  </div>
+  
+
+
+  <h1>hhhh</h1>
+  <h1>hhhh</h1>
+  <h1>hhhh</h1>
+  <h1>hhhh</h1>
+  <h1>hhhh</h1>
+  <h1>hhhh</h1>
+  <h1>hhhh</h1>
+  <h1>hhhh</h1>
+  <h1>hhhh</h1>
+  <h1>hhhh</h1>
+  <h1>hhhh</h1>
+  <h1>hhhh</h1>
+  <h1>hhhh</h1>
+  <h1>hhhh</h1>
+  <h1>hhhh</h1>
+  <h1>hhhh</h1>
+  <h1>hhhh</h1>
+
+  <script>
+    window.addEventListener('scroll', function() {
+      const header = document.querySelector('.navbar');
+      if (window.scrollY > 50) {
+        header.classList.add('scrolled');
+      } else {
+        header.classList.remove('scrolled');
+      }
+    });
+  </script>
+
+</body>
+</html>
